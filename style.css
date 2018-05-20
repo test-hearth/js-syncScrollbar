@@ -7,29 +7,24 @@ body {
     line-height: 1em;
 }
 
-table {
-    border-width: 2px;
-    border: solid #DDD;
-    width: 100%;
+div#page-body {
+    width: 894px;
+    margin: 1.8em auto 0 auto;
 }
-    .seqno {
-        width: 6em;
+
+div#entity-containe {
+    height: 24em;
+    background: linear-gradient(-224deg, green, yellow);
+}
+
+div#virtual-scroll {
+    overflow-x: scroll;
+}
+    div#virtual-scroll>div {
+        height: 1px;
     }
-    .name {
-        width: 20em;
-    }
-    .age {
-        width: 4em;
-    }
-    .sex {
-        width: 4em;
-    }
-    .job {
-        width: 15em;
-    }
-    .address {
-        width: 35em;
-    }
-    .native-address {
-        width: 50em;
-    }
+
+div#entity-scroll {
+    overflow-x: scroll;
+}
+
