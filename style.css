@@ -1,0 +1,35 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 90%;
+    color: #9F9F9F;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+table {
+    border-width: 2px;
+    border: solid #DDD;
+    width: 100%;
+}
+    .seqno {
+        width: 6em;
+    }
+    .name {
+        width: 20em;
+    }
+    .age {
+        width: 4em;
+    }
+    .sex {
+        width: 4em;
+    }
+    .job {
+        width: 15em;
+    }
+    .address {
+        width: 35em;
+    }
+    .native-address {
+        width: 50em;
+    }
